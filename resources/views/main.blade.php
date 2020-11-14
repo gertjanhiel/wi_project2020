@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+    @yield('head')
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>
@@ -98,33 +100,12 @@
 </nav>
 <!-- End of default bootstrap navbar -->
 
-<main role="main">
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-3">Welcome, Puppers!</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales, purus
-                semper tempus
-                semper, erat urna vehicula nisl, ac mollis augue elit ut nunc. Integer in enim a risus dictum
-                elementum
-                ac et dui. Suspendisse a egestas neque. Nam non dolor fringilla, condimentum arcu ut, finibus felis.
-                Duis fermentum orci nec nibh tempor vestibulum. Etiam neque nisl, varius eget ex eu, elementum
-                efficitur
-                nisi. Nunc nisi diam, vestibulum varius mi et, auctor condimentum dui. Vestibulum nunc neque,
-                scelerisque eget eleifend nec, finibus in augue.</p>
-            <p><a class="btn btn-primary btn-lg" href="/about" role="button">Learn more »</a></p>
-        </div>
-    </div>
     <div class="container">
 
         @yield('content')
 
 
-
-
-
-        <hr>
     </div> <!-- /container -->
 
 </main>
