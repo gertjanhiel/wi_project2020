@@ -11,6 +11,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -122,6 +125,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kGyZN4iaeOP62hJneCQRDfJHaz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605341278216</updated>
-      <workItem from="1605341279400" duration="12400000" />
+      <workItem from="1605341279400" duration="12731000" />
     </task>
     <servers />
   </component>
@@ -158,6 +162,18 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="903" y="279" key="#com.intellij.ide.util.MemberChooser/0.0.2194.1194/3840.455.1920.1040@0.0.2194.1194" timestamp="1605346169762" />
+    <state x="964" y="495" key="Github.ShareDialog" timestamp="1605354171030">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="964" y="495" key="Github.ShareDialog/0.0.2194.1194/3840.455.1920.1040@0.0.2194.1194" timestamp="1605354171030" />
+    <state x="839" y="302" key="Github.UntrackedFilesDialog" timestamp="1605354183193">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="839" y="302" key="Github.UntrackedFilesDialog/0.0.2194.1194/3840.455.1920.1040@0.0.2194.1194" timestamp="1605354183193" />
+    <state x="881" y="499" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605354316499">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="881" y="499" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2194.1194/3840.455.1920.1040@0.0.2194.1194" timestamp="1605354316499" />
     <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1605342037484">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
