@@ -1,5 +1,7 @@
 @extends('main')
 
+@section('title', '| Contact')
+
 @section('head')
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous"

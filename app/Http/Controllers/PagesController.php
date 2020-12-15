@@ -37,7 +37,7 @@ class PagesController extends Controller
         $user = $this->fillUserArray($name, 'Gertjan@gmail.com');
         // --- Momenteel hard coded ingesteld op mijn naam, wordt later nog aangepast naargelang de ingelogde user ---
         return view('pages.about')
-            ->withUser($user);
+            ->with('user', $user);
     }
 
     public function getContact()
@@ -46,7 +46,7 @@ class PagesController extends Controller
         $user = $this->fillUserArray($name, 'Gertjan@gmail.com');
         // idem getAbout()
         return view('pages.contact')
-            ->withUser($user);
+        ->with('user', $user);
     }
 
     public function getWelcome()
@@ -55,10 +55,9 @@ class PagesController extends Controller
         $user = $this->fillUserArray($name, 'Gertjan@gmail.com');
         // idem getAbout()
         return view('pages.welcome')
-            ->withUser($user);
+        ->with('user', $user);
     }
 }
-
 
 
 

@@ -1,5 +1,7 @@
 @extends('main')
 
+@section('title', '| Blog')
+
 @section('content')
 
     <main role="main">
@@ -76,11 +78,7 @@
                 <a href="#" class="btn btn-primary">Read More</a>
             </div>
         </div>
-
     </div>
-
-    <hr>
-
 </div> <!-- /container -->
 @endsection
 

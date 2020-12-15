@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e8e139d-24c3-470b-bd5e-6ae4f403cf24" name="Default Changelist" comment="Github classroom commit - Milestone 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="8e8e139d-24c3-470b-bd5e-6ae4f403cf24" name="Default Changelist" comment="Begin van blade implementatie op pages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605341278216</updated>
-      <workItem from="1605341279400" duration="13973000" />
+      <workItem from="1605341279400" duration="14639000" />
     </task>
     <task id="LOCAL-00001" summary="Github classroom commit - Milestone 1">
       <created>1605354342009</created>
@@ -164,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605354342009</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Begin van blade implementatie op pages">
+      <created>1605355618926</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605355618926</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +174,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Github classroom commit - Milestone 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Github classroom commit - Milestone 1" />
+    <MESSAGE value="Begin van blade implementatie op pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Begin van blade implementatie op pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1605346169762">
@@ -187,10 +190,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="839" y="302" key="Github.UntrackedFilesDialog/0.0.2194.1194/3840.455.1920.1040@0.0.2194.1194" timestamp="1605354183193" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1605354362427">
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1605355626082">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194/3840.455.1920.1040@0.0.2194.1194" timestamp="1605354362427" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194/3840.455.1920.1040@0.0.2194.1194" timestamp="1605355626082" />
     <state x="1091" y="0" width="1110" height="1201" key="dock-window-1" timestamp="1605355469799">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
