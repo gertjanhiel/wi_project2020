@@ -124,6 +124,9 @@
                     <li>
                         <a href="https://laravel.com/docs/8.x/blade">Laravel - Blade</a>
                     </li>
+                    <li>
+                        <a href="https://laravelcollective.com/docs/6.x/html">LaravelCollective - Forms & Html</a>
+                    </li>
 
                 </ul>
             </div>

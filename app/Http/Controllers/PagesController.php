@@ -57,6 +57,15 @@ class PagesController extends Controller
         return view('pages.welcome')
         ->with('user', $user);
     }
+
+    // public function getCreate()
+    // {
+    //     $name = $this->makeUsername('Gertjan', 'Hiel');
+    //     $user = $this->fillUserArray($name, 'Gertjan@gmail.com');
+    //     // idem getAbout()
+    //     return view('posts.create')
+    //     ->with('user', $user);
+    // }
 }
 
 
