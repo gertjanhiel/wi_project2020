@@ -2,6 +2,9 @@
 
 @section('title', '| Create Post')
 
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('../css/post_create.css') }}">
+<script type="text/javascript" src="{{ URL::asset('../js/post_create.js') }}"></script>
+
 @section('content')
 
 <div class="row">
@@ -16,38 +19,51 @@
 
         {{ Form::label('body', "Post Body", ['class' => 'col-form-label']) }}
         {{ Form::textarea('body', null, ['class' => 'form-control']) }}
-    </div>
 
-    <div class="col-md-8">
+
+
         {{ Form::label('tag', "Tags:", ['class' => 'col-form-label']) }}
         {{ Form::text('tag', null, ['class' => 'form-control']) }}
+
     </div>
-    <div class="col-md-4">
-        <!-- <div class="col-md-12 col-md-offset-6"> -->
+
+
+    <div class="col-md-5">
         <label for="image" class="col-form-label">Upload an image: </label>
         <input id="postImg" type="file" class="form-control" name="postImg">
         <br>
-        <img src="#" id="createPostImg" width="350"/>
-        <!-- </div> -->
+        <img src="#" id="createPostImg" class="createPostImg" />
     </div>
+</div>
 
-    {{ Form::submit('Create Post', ['class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px;']) }}
-    {!! Form::close() !!}    
+<div class="class_row">
+    
+</div>
+
+<div>
+    <b-input-group prepend="$" append=".00">
+        <b-form-input></b-form-input>
+    </b-input-group>
+
+    <b-input-group prepend="0" append="100" class="mt-3">
+        <b-form-input type="range" min="0" max="100"></b-form-input>
+    </b-input-group>
 </div>
 
 <script>
-        function readURL(input) {
-            if (input.files && input.files[0]) {
-                let reader = new FileReader();
-                reader.onload = function (e) {
-                    $('#createPostImg').attr('src', e.target.result);
-                }
-                reader.readAsDataURL(input.files[0]);
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            let reader = new FileReader();
+            reader.onload = function (e) {
+                $('#createPostImg').attr('src', e.target.result);
             }
+            reader.readAsDataURL(input.files[0]);
         }
-        $("#postImg").change(function () {
-            readURL(this);
-        });
+    }
+
+    $("#postImg").change(function () {
+        readURL(this);
+    });
 </script>
 
 @endsection

@@ -21,7 +21,7 @@
                     <a class="dropdown-item" href="#">Most popular</a>
                     <a class="dropdown-item" href="#">Most recent</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Create a post</a>
+                    <a class="dropdown-item" href="/posts/create">Create a post</a>
                 </div>
             </li>
             <li class="nav-item">
